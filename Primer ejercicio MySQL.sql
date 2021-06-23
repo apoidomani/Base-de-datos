@@ -1,0 +1,7 @@
+CREATE DATABASE Productos;
+USE Productos;
+CREATE TABLE ListaProductos
+ (IdProducto INT AUTO_INCREMENT PRIMARY KEY,
+ nombre VARCHAR (15) NOT NULL,
+ precio DECIMAL (10,5) NOT NULL,
+ stock INTEGER NOT NULL);
